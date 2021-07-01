@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>raagam</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="bar">
+			<h2><i class="fas fa-headphones-alt fa-2x"> RAAGAM</i></h2>
+			<ul>
+				<li><a href="#"><i class="fas fa-home"></i> HOME</a></li>
+				<li><a href="#"><i class="fas fa-list-ul"></i> CATEGORIES</a></li>	
+				<li><a href="#"><i class="far fa-grin"></i> ABOUT</a></li>
+			</ul>
+		</div>
+
+		<div class="content">
+			<div class="backbox">
+				<div class="cd" id="cd"></div>
+				<div id="songTitle">
+					<p id="sname"></p>
+				</div>
+				
+			<div id="seek-bar">
+				<div id="fill"></div>
+				<div id="handle"></div>
+			</div>
+			<div id="player">
+				<div id="buttons">
+					<button id="pre" onclick="pre()"><img src="Pre.png" height="90%" width="90%"></button>
+					<button id="play" class="play" onclick="playOrPauseSong()"></button>
+					<button id="next" onclick="next()"><img src="Next.png" height="90%" width="90%"></button>
+				</div>
+			</div>
+			</div>
+			
+
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

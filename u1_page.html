@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>raagam</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<!--<link rel="stylesheet" href="check.css">-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="bar">
+			<h2><i class="fas fa-headphones-alt fa-2x"> RAAGAM</i></h2>
+			<ul>
+				<li><a href="collection.html"><i class="fas fa-list-ul"></i> COLLECTIONS</a></li>	
+				<li><a href="about.html"><i class="far fa-grin"></i> ABOUT</a></li>
+			</ul>
+		</div>
+
+		<div class="content">
+			<div class="backbox">
+				<div class="cd" id="cd" style="background: url(u1_pic.jpg);	width: 170px;
+												height: 170px;
+												background-size: cover;
+												margin-top: 30%;
+												margin-left: 20%;
+												border-radius: 50%;
+												box-shadow: 5px 5px 10px #000;">
+													
+				</div>
+				<div id="songTitle">
+					<p id="sname"></p>
+				</div>
+				
+			<div id="seek-bar">
+				<div id="fill"></div>
+				<div id="handle"></div>
+			</div>
+			<div id="player">
+				<div id="buttons">
+					<button id="pre" onclick="pre()"><img src="Pre.png" height="90%" width="90%"></button>
+					<button id="play" class="play" onclick="playOrPauseSong()"></button>
+					<button id="next" onclick="next()"><img src="Next.png" height="90%" width="90%"></button>
+				</div>
+			</div>
+			</div>
+			
+
+	</div>
+	<script type="text/javascript" src="u1_script.js"></script>
+
+</body>
+</html>
