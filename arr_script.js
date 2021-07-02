@@ -52,8 +52,8 @@ function pre()
 }
 
 $(document).ready(function(){
-   	$("#pause").click(function(){
-        $(".pause").toggleClass("play");
+   	$("#play").click(function(){
+        $(".play").toggleClass("pause");
     });
 });
 
